@@ -48,7 +48,6 @@ src/
 │   │
 │   └── ui/
 │       ├── Button.tsx               # Reusable button variants (lime, blue, outline)
-│       ├── ByteSpaceLogo.tsx        # Signature ByteSpace leaf 'b' & wordmark
 │       ├── Ornament3D.tsx           # Vector 3D shaded ornaments with motion
 │       └── SectionHeading.tsx       # Standardized section headings
 │
@@ -63,8 +62,10 @@ src/
 │   ├── Home.tsx                     # Landing page composed in exact Figma order
 │   ├── Login.tsx                    # Bonus login page
 │   └── Signup.tsx                   # Bonus signup page
+|   └── NotFound.tsx                 # NotFound page (url/404)
 │
 ├── App.tsx                          # App routing setup
 ├── index.css                        # Tailwind imports & custom utility layers
 └── main.tsx                         # React entry point
+## Live link: https://bytespace-doin-tech-ten.vercel.app/
 ```
